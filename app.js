@@ -5,8 +5,12 @@
 
 // Have to put all the words and prices in boxes now
 ///////////////////////////////////////////////////
+
+// Was visually better to me to input divs individually html rather than forming with for loop
+//////////////////////////////////////////////////////////
+
 $(() => {
-    
+
    
    
    
@@ -25,76 +29,6 @@ $(() => {
    
    
    
-   
-   
-   
-   
-   
-   
-   
-    // const arr = ['food', 'programming', 'math', 'history', 'states']
-    
-    
-    
-    
-    // for (let i = 0; i < 30; i++) {
-    //     const $boxes = $('<div>');
-    //     $boxes.addClass('square');
-    //     const $ul = $('<ul>');
-        
-    //     $ul.append($('<li>').text(arr));
-        
-    //     $boxes.append($ul);
-    //     $('#container').append($boxes);
-    // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
