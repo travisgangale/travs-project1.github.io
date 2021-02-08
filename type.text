@@ -21,5 +21,19 @@ pseudocode:
 
 
 
+////////////////////////////////////////////////////
+
+I'm going to need:
+
+- a click for each box(<div>)
+    ..Each box is going to need it's own question
+    ..Pop up modal for every question, (with answers maybe?)
+
+- the boxes are going to need to be unclickable after clicked (maybe toggle class?)
+
+- 
+
+////////////////////////////////////////////////////
+
 
 
