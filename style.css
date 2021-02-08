@@ -6,12 +6,15 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 
 .square {
-    
     border: 2px solid orange;
     height: 140px;
     width: 200px;
+    flex: 1;
+    flex-basis: 17%;
 }
