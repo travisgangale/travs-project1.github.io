@@ -1,11 +1,11 @@
 Project one:
 
-whatever game:
+whatever game: jeopardy
 
-winning condition:
+winning condition: you need at least 1$ to continue on to the final jeopardy question
 
 
-losing condition:
+losing condition: if you dont have at least 1 dollar you can not play final jeopardy, you lose!
 
 
 user stories: 
