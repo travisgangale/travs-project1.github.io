@@ -22,7 +22,7 @@ body {
     font-size: larger;
     text-align: center;
     font-style: oblique;
-    color: ;
+    color: white;
 }
 
 .ten {
@@ -51,6 +51,12 @@ body {
 
 .fifty {
     font-size: 40px;
+    text-align: center;
+    color: orchid;
+}
+
+.final {
+    font-size: 50px;
     text-align: center;
     color: orchid;
 }
