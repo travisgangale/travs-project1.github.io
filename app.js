@@ -21,7 +21,10 @@ $(() => {
     const $submitBtn = $('#submit');
     const $inputText = $('#inputText');
 
-
+    // $modal.on('click', () => {
+    //     $modal.css('display', 'block');
+    // })
+    
 
     $modalBtn.on('click', () => {
         $modal.css('display', 'block');
@@ -40,13 +43,20 @@ $(() => {
             alert('incorrect');
         }  
     })
-    
 
-    $(window).on('click', (e) => {
-        if (e.target == $modal) {
-            $modal.css('display', 'none');
-        }
-    })
+
+
+
+
+
+
+
+
+    // $(window).on('click', (e) => {
+    //     if (e.target == $modal) {
+    //         $modal.css('display', 'none');
+    //     }
+    // })
 })
    
 
