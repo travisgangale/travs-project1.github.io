@@ -10,7 +10,10 @@
 //////////////////////////////////////////////////////////
 
 $(() => {
-
+    const $question = $('.square').on('click', (event) => {
+        $(event.currentTarget).css('text-decoration', 'line-through');
+        
+    })
    
    
    
