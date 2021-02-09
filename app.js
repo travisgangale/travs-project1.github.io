@@ -9,26 +9,22 @@
 // Was visually better to me to input divs individually html rather than forming with for loop
 //////////////////////////////////////////////////////////
 
+
 $(() => {
+    const arrQuestion = []
+
     const $question = $('.square').on('click', (event) => {
-        $(event.currentTarget).css('text-decoration', 'line-through');
+        $(event.currentTarget).css('text-decoration', 'line-through')
+        $modal.css('display', 'block');
+        })
         
     
 // creation of the modal for the questions when clicked
-    const $modalBtn = $('#modal-btn');
+    // const $modalBtn = $('#modal-btn');
     const $modal = $('.modal');
     const $closeBtn = $('.close-btn');
     const $submitBtn = $('#submit');
     const $inputText = $('#inputText');
-
-    // $modal.on('click', () => {
-    //     $modal.css('display', 'block');
-    // })
-    
-
-    $modalBtn.on('click', () => {
-        $modal.css('display', 'block');
-    })
 
 
     $closeBtn.on('click', () => {
@@ -70,15 +66,5 @@ $(() => {
    
    
    
-   
-   
-   
-   
-   
-   
 
 
-
-
-
-});
