@@ -14,7 +14,22 @@ $(() => {
         $(event.currentTarget).css('text-decoration', 'line-through');
         
     })
-   
+
+    const $modalBtn = $('#modal-btn');
+    const $modal = $('.modal');
+    const $closeBtn = $('.close-btn');
+
+    $modalBtn.on('click', () => {
+        $modal.css('display', 'block');
+    })
+    $closeBtn.on('click', () => {
+        $modal.css('display', 'none');
+    })
+    window.on('click', (e) => {
+        if (e.target == $modal) {
+            $modal.css('display', 'none');
+        }
+    })
    
    
    

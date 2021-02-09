@@ -25,7 +25,7 @@ pseudocode:
 
 I'm going to need:
 
-- a click for each box(<div>)
+-[ x ] a click for each box(<div>)
     ..Each box is going to need it's own question/ answer
     ..Pop up modal for every question, (with 4 answers maybe?)
 
@@ -34,6 +34,10 @@ I'm going to need:
 - 
 
 ////////////////////////////////////////////////////
+
+https://medium.com/@nerdplusdog/a-how-to-guide-for-modal-boxes-with-javascript-html-and-css-6a49d063987e
+
+^^^^^^^^ info about modal cited
 
 
 
