@@ -16,8 +16,8 @@ $(() => {
 // ANSWERS: What is a avocato?, What is a banana?, What is pizza?, What is a coconut?, What is steak?...
     const arrQuestion2 = ['Steps used to complete a task', 'The  act of going through an array over and over', 'programs need this when parameters are met', 'containers for storing values', 'A list of values or strings']
 // ANSWERS: What is an algorithm?, What is looping?, What are conditionals?, What are variables?, What is an array?...
-    const arrQuestion3 = ['6 x 7', '2 x 5 - 3', 'parenthesis, exponents, multiplication, division, addition, subtraction', ]
-// ANSWERS: What is 42?, What is 7?, What is PEMDAS?, 
+    const arrQuestion3 = ['6 x 7', '2 x 5 - 3', 'parenthesis, exponents, multiplication, division, addition, subtraction', '2 lines that run the same way but never touch', 'An angle more than 90 degrees but less than 180 degrees']
+// ANSWERS: What is 42?, What is 7?, What is PEMDAS?, What are parallel lines?, What is an obtuse angle?...
 
 
 
@@ -46,6 +46,9 @@ $(() => {
         'fourty3': arrQuestion3[3],
         'fifty3': arrQuestion3[4]
     }
+    const objHistory = {
+
+    }
     
     
     
@@ -59,6 +62,7 @@ $(() => {
         $('#modalText').text(objFood[event.currentTarget.id])
         $('#modalText').text(objProgramming[event.currentTarget.id])
         $('#modalText').text(objMath[event.currentTarget.id])
+        $('#modalText').text(objHistory[event.currentTarget.id])
         }) 
         
       
