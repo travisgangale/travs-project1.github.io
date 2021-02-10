@@ -20,7 +20,7 @@ $(() => {
 // ANSWERS: What is 42?, What is 7?, What is PEMDAS?, What are parallel lines?, What is an obtuse angle?...
     const arrQuestion4 = ['sailed the ocean blue in 1492', 'Freed the slaves in 1863', 'First president of the United States', 'Gave the U.S. the Statue of Liberty', 'Signed in 1776']
 // ANSWERS: Who is Christopher Columbus?, Who is Abraham Lincoln?, Who is George Washington?, Who is France?, What is the Declaration of Independence?...
-    const arrQuestion5 = ['Washington, DC', 'New York City', 'The Sunshine State', 'The Empire State', 'Has the more tigers in captivity than all of the wild of the world']
+    const arrQuestion5 = ['_ is located in Washington, DC', '_ is located in New York City', 'This is The Sunshine State', 'This is The Empire State', 'Has the more tigers in captivity than all of the wild of the world']
 // ANSWERS: Where is the pentagon?, Where is the Empire State Building?, What is Florida?, What is New York?, What is Texas?...
 
 
@@ -64,9 +64,6 @@ $(() => {
         'fifty5': arrQuestion5[4]
     }
     
-    
-    
-    
     const $question = $('.square').on('click', (event) => {
         $(event.currentTarget).css('text-decoration', 'line-through')
         $modal.css('display', 'block');
@@ -81,9 +78,7 @@ $(() => {
 
         }) 
         
-      
         
-    
 // creation of the modal for the questions when clicked
 
     const $modal = $('.modal');
@@ -91,12 +86,10 @@ $(() => {
     const $submitBtn = $('#submit');
     const $inputText = $('#inputText');
 
-
     $closeBtn.on('click', () => {
         $modal.css('display', 'none');
         $('#modalText').empty()
     })
-
 
     $submitBtn.on('click', () => {
         if ($inputText == true) {
@@ -105,20 +98,6 @@ $(() => {
             alert('incorrect');
         }  
     })
-
-
-
-
-
-
-
-
-
-    // $(window).on('click', (e) => {
-    //     if (e.target == $modal) {
-    //         $modal.css('display', 'none');
-    //     }
-    // })
 });
    
 
