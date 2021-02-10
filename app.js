@@ -18,7 +18,10 @@ $(() => {
 // ANSWERS: What is an algorithm?, What is looping?, What are conditionals?, What are variables?, What is an array?...
     const arrQuestion3 = ['6 x 7', '2 x 5 - 3', 'parenthesis, exponents, multiplication, division, addition, subtraction', '2 lines that run the same way but never touch', 'An angle more than 90 degrees but less than 180 degrees']
 // ANSWERS: What is 42?, What is 7?, What is PEMDAS?, What are parallel lines?, What is an obtuse angle?...
-
+    const arrQuestion4 = ['sailed the ocean blue in 1492', 'Freed the slaves in 1863', 'First president of the United States', 'Gave the U.S. the Statue of Liberty', 'Signed in 1776']
+// ANSWERS: Who is Christopher Columbus?, Who is Abraham Lincoln?, Who is George Washington?, Who is France?, What is the Declaration of Independence?...
+    const arrQuestion5 = ['Washington, DC', 'New York City', ]
+// ANSWERS: Where is the pentagon?, Where is the Empire State Building?, 
 
 
 // what is being stored from the array
@@ -47,7 +50,18 @@ $(() => {
         'fifty3': arrQuestion3[4]
     }
     const objHistory = {
-
+        'ten4': arrQuestion4[0],
+        'twenty4': arrQuestion4[1],
+        'thirty4': arrQuestion4[2],
+        'fourty4': arrQuestion4[3],
+        'fifty4': arrQuestion4[4]
+    }
+    const objStates = {
+        'ten5': arrQuestion5[0],
+        'twenty5': arrQuestion5[1],
+        'thirty5': arrQuestion5[2],
+        'fourty5': arrQuestion5[3],
+        'fifty5': arrQuestion5[4]
     }
     
     
@@ -63,6 +77,8 @@ $(() => {
         $('#modalText').text(objProgramming[event.currentTarget.id])
         $('#modalText').text(objMath[event.currentTarget.id])
         $('#modalText').text(objHistory[event.currentTarget.id])
+        $('#modalText').text(objStates[event.currentTarget.id])
+
         }) 
         
       
