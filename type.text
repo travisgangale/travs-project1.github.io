@@ -34,6 +34,24 @@ I'm going to need:
 - create array for questions...
 - sign elements in array to the id of each box...
 
+
+
+..-->>
+
+- [] I have to add different answers to each second array i created for each question/obj
+
+- [] i need to reorganize them so they are not in the same order as in the first answer is always right
+
+- [] i need to make each button correctly respond if its correct or incorrect
+
+- [] i need to add a score for each question correct
+
+- [] (BONUS) i need to make boxes unclickable after they have already been clicked
+
+- [] (BONUS) i need to add some styling to change things up after i have functionality
+
+<<--..
+
 ////////////////////////////////////////////////////
 
 https://medium.com/@nerdplusdog/a-how-to-guide-for-modal-boxes-with-javascript-html-and-css-6a49d063987e
