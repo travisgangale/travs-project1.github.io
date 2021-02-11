@@ -10,6 +10,20 @@ answer with a question. You have 4 choices to choose from and only 1 is correct.
 If correct an alert will pop up telling you correct, if wrong an alert will pop up telling you incorrect.
 ----------------------------------------------------------------------------------------
 
+Technologies Used
+----------------------------------------------------------------------------------------
+Languages - HTML5, CSS3, JavaScript, jQuery
+
+Planning - type.text(pseudocoding purposes)
+
+Cite: For the modal -
+
+https://medium.com/@nerdplusdog/a-how-to-guide-for-modal-boxes-with-javascript-html-and-css-6a49d063987e
+
+^^^^^^^^ info about modal cited
+----------------------------------------------------------------------------------------
+
+file:///home/travis/Pictures/Screenshot%20from%202021-02-11%2018-04-30.png
 
 
 
@@ -20,8 +34,16 @@ If correct an alert will pop up telling you correct, if wrong an alert will pop 
 
 
 
+Future Development - 
 
+- Score system
+- Make answers randomized
+- Boxes unclickable after clicked
+- restructuring the whole project so all these would work correctly(needed to make deadline)
+- adding a second round to play after finished
+- Maybe make some clickable sounds
 
+----------------------------------------------------------------------------------------
 
 
 
@@ -31,16 +53,3 @@ This is the site:
 https://github.com/travisgangale/travs-project1.github.io
 
 
-
-
-
-
-
-
-
-
-
-
-https://medium.com/@nerdplusdog/a-how-to-guide-for-modal-boxes-with-javascript-html-and-css-6a49d063987e
-
-^^^^^^^^ info about modal cited
