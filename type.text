@@ -38,7 +38,7 @@ I'm going to need:
 
 ..-->>
 
-- [] I have to add different answers to each second array i created for each question/obj
+- [ x ] I have to add different answers to each second array i created for each question/obj
 
 - [] i need to reorganize them so they are not in the same order as in the first answer is always right
 
@@ -46,7 +46,11 @@ I'm going to need:
 
 - [] i need to add a score for each question correct
 
+- [] (BONUS) i need to make the categories unclickable
+
 - [] (BONUS) i need to make boxes unclickable after they have already been clicked
+
+- [] (BONUS) i need to make the final jeopardy question a question... maybe make it not clickable till the last question?
 
 - [] (BONUS) i need to add some styling to change things up after i have functionality
 
