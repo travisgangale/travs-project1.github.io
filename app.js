@@ -199,18 +199,28 @@ $(() => {
 //Food Answer Buttons
         $('#submit').text(objAnswerFood[event.currentTarget.id])
         $('#submit1').text(objAnswerFood1[event.currentTarget.id])
+        $('#submit2').text(objAnswerFood2[event.currentTarget.id])
+        $('#submit3').text(objAnswerFood3[event.currentTarget.id])
 //Programming Answer Buttons
         $('#submit').text(objAnswerProgramming[event.currentTarget.id])
         $('#submit1').text(objAnswerProgramming1[event.currentTarget.id])
+        $('#submit2').text(objAnswerProgramming2[event.currentTarget.id])
+        $('#submit3').text(objAnswerProgramming3[event.currentTarget.id])
 //Math Answer Buttons
         $('#submit').text(objAnswerMath[event.currentTarget.id])
         $('#submit1').text(objAnswerMath1[event.currentTarget.id])
+        $('#submit2').text(objAnswerMath2[event.currentTarget.id])
+        $('#submit3').text(objAnswerMath3[event.currentTarget.id])
 //History Answer Buttons
         $('#submit').text(objAnswerHistory[event.currentTarget.id])
         $('#submit1').text(objAnswerHistory1[event.currentTarget.id])
+        $('#submit2').text(objAnswerHistory2[event.currentTarget.id])
+        $('#submit3').text(objAnswerHistory3[event.currentTarget.id])
 //States Answer Buttons
         $('#submit').text(objAnswerStates[event.currentTarget.id])
         $('#submit1').text(objAnswerStates1[event.currentTarget.id])
+        $('#submit2').text(objAnswerStates2[event.currentTarget.id])
+        $('#submit3').text(objAnswerStates3[event.currentTarget.id])
         }) 
         
         
@@ -225,6 +235,8 @@ $(() => {
     const $closeBtn = $('.close-btn');
     const $submitBtn = $('#submit');
     const $submitBtn1 = $('#submit1');
+    const $submitBtn2 = $('#submit2');
+    const $submitBtn3 = $('#submit3');
     const $inputText = $('#inputText');
 
     $closeBtn.on('click', () => {
@@ -240,6 +252,20 @@ $(() => {
         }  
     })
     $submitBtn1.on('click', () => {
+        if ($inputText == true) {
+            alert('Correct!');
+        } else {
+            alert('incorrect');
+        }  
+    })
+    $submitBtn2.on('click', () => {
+        if ($inputText == true) {
+            alert('Correct!');
+        } else {
+            alert('incorrect');
+        }  
+    })
+    $submitBtn3.on('click', () => {
         if ($inputText == true) {
             alert('Correct!');
         } else {
