@@ -82,30 +82,30 @@ $(() => {
 // answerFood1 [0,2,4,6,8] is always correct...
 
     const objAnswerFood = {
-        'ten1': answerFood1[0],
-        'twenty1': answerFood1[2],
-        'thirty1': answerFood1[4],
+        'ten1': answerFood1[1],
+        'twenty1': answerFood2[2],
+        'thirty1': answerFood2[4],
         'fourty1': answerFood1[6],
-        'fifty1': answerFood1[8],
+        'fifty1': answerFood2[8],
     }
     const objAnswerFood1 = {
-        'ten1': answerFood1[1],
+        'ten1': answerFood2[1],
         'twenty1': answerFood1[3],
-        'thirty1': answerFood1[5],
+        'thirty1': answerFood2[5],
         'fourty1': answerFood1[7],
         'fifty1': answerFood1[9],
     }
     const objAnswerFood2 = {
         'ten1': answerFood2[0],
-        'twenty1': answerFood2[2],
-        'thirty1': answerFood2[4],
+        'twenty1': answerFood1[2],
+        'thirty1': answerFood1[4],
         'fourty1': answerFood2[6],
-        'fifty1': answerFood2[8],
+        'fifty1': answerFood1[8],
     }
     const objAnswerFood3 = {
-        'ten1': answerFood2[1],
+        'ten1': answerFood1[0],
         'twenty1': answerFood2[3],
-        'thirty1': answerFood2[5],
+        'thirty1': answerFood1[5],
         'fourty1': answerFood2[7],
         'fifty1': answerFood2[9],
     }
@@ -127,18 +127,18 @@ $(() => {
 // answerProgramming [0,2,4,6,8] is always correct...
 
     const objAnswerProgramming = {
-        'ten2': answerProgramming[0],
+        'ten2': answerProgramming[1],
         'twenty2': answerProgramming[2],
-        'thirty2': answerProgramming[4],
-        'fourty2': answerProgramming[6],
-        'fifty2': answerProgramming[8],
+        'thirty2': answerProgramming1[5],
+        'fourty2': answerProgramming1[7],
+        'fifty2': answerProgramming[9],
     }
     const objAnswerProgramming1 = {
-        'ten2': answerProgramming[1],
+        'ten2': answerProgramming[0],
         'twenty2': answerProgramming[3],
         'thirty2': answerProgramming[5],
         'fourty2': answerProgramming[7],
-        'fifty2': answerProgramming[9],
+        'fifty2': answerProgramming[8],
     }
     const objAnswerProgramming2 = {
         'ten2': answerProgramming1[0],
@@ -150,8 +150,8 @@ $(() => {
     const objAnswerProgramming3 = {
         'ten2': answerProgramming1[1],
         'twenty2': answerProgramming1[3],
-        'thirty2': answerProgramming1[5],
-        'fourty2': answerProgramming1[7],
+        'thirty2': answerProgramming[4],
+        'fourty2': answerProgramming[6],
         'fifty2': answerProgramming1[9],
     }
 
@@ -172,11 +172,11 @@ $(() => {
 // answerMath [0,2,4,6,8] is always correct...
 
     const objAnswerMath = {
-        'ten3': answerMath[0],
+        'ten3': answerMath1[0],
         'twenty3': answerMath[2],
-        'thirty3': answerMath[4],
+        'thirty3': answerMath1[5],
         'fourty3': answerMath[6],
-        'fifty3': answerMath[8],
+        'fifty3': answerMath1[8],
     }
     const objAnswerMath1 = {
         'ten3': answerMath[1],
@@ -186,16 +186,16 @@ $(() => {
         'fifty3': answerMath[9],
     }
     const objAnswerMath2 = {
-        'ten3': answerMath1[0],
+        'ten3': answerMath[0],
         'twenty3': answerMath1[2],
         'thirty3': answerMath1[4],
         'fourty3': answerMath1[6],
-        'fifty3': answerMath1[8],
+        'fifty3': answerMath[8],
     }
     const objAnswerMath3 = {
         'ten3': answerMath1[1],
         'twenty3': answerMath1[3],
-        'thirty3': answerMath1[5],
+        'thirty3': answerMath[4],
         'fourty3': answerMath1[7],
         'fifty3': answerMath1[9],
     }
@@ -217,28 +217,28 @@ $(() => {
 // answerHistory [0,2,4,6,8] is always correct...
 
     const objAnswerHistory = {
-        'ten4': answerHistory[0],
-        'twenty4': answerHistory[2],
+        'ten4': answerHistory1[1],
+        'twenty4': answerHistory1[2],
         'thirty4': answerHistory[4],
-        'fourty4': answerHistory[6],
-        'fifty4': answerHistory[8],
+        'fourty4': answerHistory[7],
+        'fifty4': answerHistory1[8],
     }
     const objAnswerHistory1 = {
         'ten4': answerHistory[1],
         'twenty4': answerHistory[3],
         'thirty4': answerHistory[5],
-        'fourty4': answerHistory[7],
+        'fourty4': answerHistory[6],
         'fifty4': answerHistory[9],
     }
     const objAnswerHistory2 = {
         'ten4': answerHistory1[0],
-        'twenty4': answerHistory1[2],
+        'twenty4': answerHistory[2],
         'thirty4': answerHistory1[4],
         'fourty4': answerHistory1[6],
-        'fifty4': answerHistory1[8],
+        'fifty4': answerHistory[8],
     }
     const objAnswerHistory3 = {
-        'ten4': answerHistory1[1],
+        'ten4': answerHistory[0],
         'twenty4': answerHistory1[3],
         'thirty4': answerHistory1[5],
         'fourty4': answerHistory1[7],
@@ -262,14 +262,14 @@ $(() => {
 // answerStates [0,2,4,6,8] is always correct...
 
     const objAnswerStates = {
-        'ten5': answerStates[0],
-        'twenty5': answerStates[2],
-        'thirty5': answerStates[4],
-        'fourty5': answerStates[6],
+        'ten5': answerStates[1],
+        'twenty5': answerStates1[2],
+        'thirty5': answerStates1[4],
+        'fourty5': answerStates1[7],
         'fifty5': answerStates[8],
     }
     const objAnswerStates1 = {
-        'ten5': answerStates[1],
+        'ten5': answerStates[0],
         'twenty5': answerStates[3],
         'thirty5': answerStates[5],
         'fourty5': answerStates[7],
@@ -277,8 +277,8 @@ $(() => {
     }
     const objAnswerStates2 = {
         'ten5': answerStates1[0],
-        'twenty5': answerStates1[2],
-        'thirty5': answerStates1[4],
+        'twenty5': answerStates[2],
+        'thirty5': answerStates[4],
         'fourty5': answerStates1[6],
         'fifty5': answerStates1[8],
     }
@@ -286,7 +286,7 @@ $(() => {
         'ten5': answerStates1[1],
         'twenty5': answerStates1[3],
         'thirty5': answerStates1[5],
-        'fourty5': answerStates1[7],
+        'fourty5': answerStates[6],
         'fifty5': answerStates1[9],
     }
 
