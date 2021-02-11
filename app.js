@@ -66,6 +66,7 @@ $(() => {
 
 ///////// The Answers being pulled into the obj from the array /////////
 
+// ANSWERS: What is an avocato?, What is a banana?, What is pizza?, What is a coconut?, What is steak?...
     const answerFood1 = ['What is an avocato?', 'What is a potato?', 
     'What is a banana?', 'What is an Orange?',
     'What is pizza?', 'What is sausage?',
@@ -88,47 +89,96 @@ $(() => {
     
     
     // ANSWERS: What is an algorithm?, What is looping?, What are conditionals?, What are variables?, What is an array?
-    const answerProgramming = ['What is an Algorithm?', 'What is a Boolean?']
+    const answerProgramming = ['What is an Algorithm?', 'What is a Boolean?',
+    'What is looping?', 'What is forming?',
+    'What are conditionals?', 'What are mocks?',
+    'What are variables?', 'What are spots?',
+    'What is an array?', 'What is a pie?']
     const objAnswerProgramming = {
         'ten2': answerProgramming[0],
+        'twenty2': answerProgramming[2],
+        'thirty2': answerProgramming[4],
+        'fourty2': answerProgramming[6],
+        'fifty2': answerProgramming[8],
     }
     const objAnswerProgramming1 = {
         'ten2': answerProgramming[1],
+        'twenty2': answerProgramming[3],
+        'thirty2': answerProgramming[5],
+        'fourty2': answerProgramming[7],
+        'fifty2': answerProgramming[9],
     }
 
 
-
-    const answerMath = ['What is 42?', 'What is 52?']
+// ANSWERS: What is 42?, What is 7?, What is PEMDAS?, What are parallel lines?, What is an obtuse angle?
+    const answerMath = ['What is 42?', 'What is 52?',
+    'What is 7?', 'What is 13?',
+    'What is PEMDAS?', 'What is MMATMILP?',
+    'What are parallel lines?', 'What are perpendicular lines?',
+    'What is an obtuse angle?', 'What is an acute angle?']
     const objAnswerMath = {
         'ten3': answerMath[0],
+        'twenty3': answerMath[2],
+        'thirty3': answerMath[4],
+        'fourty3': answerMath[6],
+        'fifty3': answerMath[8],
     }
     const objAnswerMath1 = {
         'ten3': answerMath[1],
+        'twenty3': answerMath[3],
+        'thirty3': answerMath[5],
+        'fourty3': answerMath[7],
+        'fifty3': answerMath[9],
     }
 
 
-
-    const answerHistory = ['Who is Christopher Columbus?', 'Who is Freddy Mercury?']
+// ANSWERS: Who is Christopher Columbus?, Who is Abraham Lincoln?, Who is George Washington?, Who is France?, What is the Declaration of Independence?...
+    const answerHistory = ['Who is Christopher Columbus?', 'Who is Freddy Mercury?',
+    'Who is Abraham Lincoln?', 'Who is George Washington?',
+    'Who is George Washington?', 'Who is Christopher Columbus?',
+    'Who is France?', 'Who is Italy?',
+    'What is the Declaration of Independence?', 'What is the National Anthem?']
     const objAnswerHistory = {
         'ten4': answerHistory[0],
+        'twenty4': answerHistory[2],
+        'thirty4': answerHistory[4],
+        'fourty4': answerHistory[6],
+        'fifty4': answerHistory[8],
     }
     const objAnswerHistory1 = {
         'ten4': answerHistory[1],
+        'twenty4': answerHistory[3],
+        'thirty4': answerHistory[5],
+        'fourty4': answerHistory[7],
+        'fifty4': answerHistory[9],
     }
 
 
-
-    const answerStates = ['Where is the pentagon?', 'Where is the Miracle Building of Arts?']
+// ANSWERS: Where is the pentagon?, Where is the Empire State Building?, What is Florida?, What is New York?, What is Texas?...
+    const answerStates = ['Where is the pentagon?', 'Where is the Miracle Building of Arts?',
+    'Where is the Empire State Building?', 'Where is the White House?',
+    'What is Florida?', 'What is California?',
+    'What is New York?', 'What is Washington, D.C.?',
+    'What is Texas?', 'What is Missouri?']
     const objAnswerStates = {
         'ten5': answerStates[0],
+        'twenty5': answerStates[2],
+        'thirty5': answerStates[4],
+        'fourty5': answerStates[6],
+        'fifty5': answerStates[8],
     }
     const objAnswerStates1 = {
         'ten5': answerStates[1],
+        'twenty5': answerStates[3],
+        'thirty5': answerStates[5],
+        'fourty5': answerStates[7],
+        'fifty5': answerStates[9],
     }
 
 
-
+////////////////////////////////////////////////////////////
 //////// What is going to make everything work ////////
+///////////////////////////////////////////////////////////
     const $question = $('.square').on('click', (event) => {
         $(event.currentTarget).css('text-decoration', 'line-through')
         $modal.css('display', 'block');
