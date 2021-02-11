@@ -72,6 +72,13 @@ $(() => {
     'What is pizza?', 'What is sausage?',
     'What is a coconut?', 'What is a bird?',
     'What is steak?', 'What is grass?']
+
+    const answerFood2 = ['What is an avocato?', 'What is a potato?', 
+    'What is a banana?', 'What is an Orange?',
+    'What is pizza?', 'What is sausage?',
+    'What is a coconut?', 'What is a bird?',
+    'What is steak?', 'What is grass?']
+
     const objAnswerFood = {
         'ten1': answerFood1[0],
         'twenty1': answerFood1[2],
@@ -86,6 +93,20 @@ $(() => {
         'fourty1': answerFood1[7],
         'fifty1': answerFood1[9],
     }
+    const objAnswerFood2 = {
+        'ten1': answerFood2[0],
+        'twenty1': answerFood2[2],
+        'thirty1': answerFood2[4],
+        'fourty1': answerFood2[6],
+        'fifty1': answerFood2[8],
+    }
+    const objAnswerFood3 = {
+        'ten1': answerFood2[1],
+        'twenty1': answerFood2[3],
+        'thirty1': answerFood2[5],
+        'fourty1': answerFood2[7],
+        'fifty1': answerFood2[9],
+    }
     
     
     // ANSWERS: What is an algorithm?, What is looping?, What are conditionals?, What are variables?, What is an array?
@@ -94,6 +115,13 @@ $(() => {
     'What are conditionals?', 'What are mocks?',
     'What are variables?', 'What are spots?',
     'What is an array?', 'What is a pie?']
+
+    const answerProgramming1 = ['What is an Algorithm?', 'What is a Boolean?',
+    'What is looping?', 'What is forming?',
+    'What are conditionals?', 'What are mocks?',
+    'What are variables?', 'What are spots?',
+    'What is an array?', 'What is a pie?']
+
     const objAnswerProgramming = {
         'ten2': answerProgramming[0],
         'twenty2': answerProgramming[2],
@@ -108,6 +136,20 @@ $(() => {
         'fourty2': answerProgramming[7],
         'fifty2': answerProgramming[9],
     }
+    const objAnswerProgramming2 = {
+        'ten2': answerProgramming1[0],
+        'twenty2': answerProgramming1[2],
+        'thirty2': answerProgramming1[4],
+        'fourty2': answerProgramming1[6],
+        'fifty2': answerProgramming1[8],
+    }
+    const objAnswerProgramming3 = {
+        'ten2': answerProgramming1[1],
+        'twenty2': answerProgramming1[3],
+        'thirty2': answerProgramming1[5],
+        'fourty2': answerProgramming1[7],
+        'fifty2': answerProgramming1[9],
+    }
 
 
 // ANSWERS: What is 42?, What is 7?, What is PEMDAS?, What are parallel lines?, What is an obtuse angle?
@@ -116,6 +158,13 @@ $(() => {
     'What is PEMDAS?', 'What is MMATMILP?',
     'What are parallel lines?', 'What are perpendicular lines?',
     'What is an obtuse angle?', 'What is an acute angle?']
+
+    const answerMath1 = ['What is 42?', 'What is 52?',
+    'What is 7?', 'What is 13?',
+    'What is PEMDAS?', 'What is MMATMILP?',
+    'What are parallel lines?', 'What are perpendicular lines?',
+    'What is an obtuse angle?', 'What is an acute angle?']
+
     const objAnswerMath = {
         'ten3': answerMath[0],
         'twenty3': answerMath[2],
@@ -130,6 +179,20 @@ $(() => {
         'fourty3': answerMath[7],
         'fifty3': answerMath[9],
     }
+    const objAnswerMath2 = {
+        'ten3': answerMath1[0],
+        'twenty3': answerMath1[2],
+        'thirty3': answerMath1[4],
+        'fourty3': answerMath1[6],
+        'fifty3': answerMath1[8],
+    }
+    const objAnswerMath3 = {
+        'ten3': answerMath1[1],
+        'twenty3': answerMath1[3],
+        'thirty3': answerMath1[5],
+        'fourty3': answerMath1[7],
+        'fifty3': answerMath1[9],
+    }
 
 
 // ANSWERS: Who is Christopher Columbus?, Who is Abraham Lincoln?, Who is George Washington?, Who is France?, What is the Declaration of Independence?...
@@ -138,6 +201,13 @@ $(() => {
     'Who is George Washington?', 'Who is Christopher Columbus?',
     'Who is France?', 'Who is Italy?',
     'What is the Declaration of Independence?', 'What is the National Anthem?']
+
+    const answerHistory1 = ['Who is Christopher Columbus?', 'Who is Freddy Mercury?',
+    'Who is Abraham Lincoln?', 'Who is George Washington?',
+    'Who is George Washington?', 'Who is Christopher Columbus?',
+    'Who is France?', 'Who is Italy?',
+    'What is the Declaration of Independence?', 'What is the National Anthem?']
+
     const objAnswerHistory = {
         'ten4': answerHistory[0],
         'twenty4': answerHistory[2],
@@ -152,6 +222,20 @@ $(() => {
         'fourty4': answerHistory[7],
         'fifty4': answerHistory[9],
     }
+    const objAnswerHistory2 = {
+        'ten4': answerHistory1[0],
+        'twenty4': answerHistory1[2],
+        'thirty4': answerHistory1[4],
+        'fourty4': answerHistory1[6],
+        'fifty4': answerHistory1[8],
+    }
+    const objAnswerHistory3 = {
+        'ten4': answerHistory1[1],
+        'twenty4': answerHistory1[3],
+        'thirty4': answerHistory1[5],
+        'fourty4': answerHistory1[7],
+        'fifty4': answerHistory1[9],
+    }
 
 
 // ANSWERS: Where is the pentagon?, Where is the Empire State Building?, What is Florida?, What is New York?, What is Texas?...
@@ -160,6 +244,13 @@ $(() => {
     'What is Florida?', 'What is California?',
     'What is New York?', 'What is Washington, D.C.?',
     'What is Texas?', 'What is Missouri?']
+
+    const answerStates1 = ['Where is the pentagon?', 'Where is the Miracle Building of Arts?',
+    'Where is the Empire State Building?', 'Where is the White House?',
+    'What is Florida?', 'What is California?',
+    'What is New York?', 'What is Washington, D.C.?',
+    'What is Texas?', 'What is Missouri?']
+
     const objAnswerStates = {
         'ten5': answerStates[0],
         'twenty5': answerStates[2],
@@ -173,6 +264,20 @@ $(() => {
         'thirty5': answerStates[5],
         'fourty5': answerStates[7],
         'fifty5': answerStates[9],
+    }
+    const objAnswerStates2 = {
+        'ten5': answerStates1[0],
+        'twenty5': answerStates1[2],
+        'thirty5': answerStates1[4],
+        'fourty5': answerStates1[6],
+        'fifty5': answerStates1[8],
+    }
+    const objAnswerStates3 = {
+        'ten5': answerStates1[1],
+        'twenty5': answerStates1[3],
+        'thirty5': answerStates1[5],
+        'fourty5': answerStates1[7],
+        'fifty5': answerStates1[9],
     }
 
 
