@@ -42,17 +42,17 @@ I'm going to need:
 
 - [ x ] i need to reorganize them so they are not in the same order as in the first answer is always right
 
-- [] i need to make each button correctly respond if its correct or incorrect
+- [ x ] i need to make each button correctly respond if its correct or incorrect
 
 - [] i need to add a score for each question correct
 
-- [] (BONUS) i need to make the final jeopardy question a question... maybe make it not clickable till the last question?
+- [ x ] (BONUS) i need to make the final jeopardy question a question... maybe make it not clickable till the last question?
 
 - [] (BONUS) i need to make the categories unclickable
 
 - [] (BONUS) i need to make boxes unclickable after they have already been clicked
 
-- [] (BONUS) i need to add some styling to change things up after i have functionality
+- [ x ] (BONUS) i need to add some styling to change things up after i have functionality
 
 <<--..
 

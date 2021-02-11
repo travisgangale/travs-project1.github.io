@@ -439,7 +439,7 @@ $(() => {
 });
    
 
-
+// could not get a score unless i had set up the object correctly from the beginning because i can not target correctly
 
 
 
