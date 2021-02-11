@@ -22,6 +22,47 @@ $(() => {
 // ANSWERS: Who is Christopher Columbus?, Who is Abraham Lincoln?, Who is George Washington?, Who is France?, What is the Declaration of Independence?...
     const arrQuestion5 = ['_ is located in Washington, DC', '_ is located in New York City', 'This is The Sunshine State', 'This is The Empire State', 'Has the more tigers in captivity than all of the wild of the world']
 // ANSWERS: Where is the pentagon?, Where is the Empire State Building?, What is Florida?, What is New York?, What is Texas?...
+    const finalJeopardy = ['What is always coming, but never arrives?']
+
+/////////////////////////////////////
+//Could not get it to work need to make deadline
+/////////////////////////////////////
+
+// const objQuestion = {
+//     question: '',
+//     answer1: '',
+//     answer2: '',
+//     answer3: '',
+//     answer4: '', 
+// }
+// const objFoodCategory = {
+//     objQuestion: [],
+// }
+
+// const objFoodCategory = {
+//      objQuestionTen = {
+//         Question: ;
+//         Answer: ;
+//         Answer: ;
+//         Answer: ;
+//         Answer: ;
+
+//     objQuestionTen = {
+//         Question: ;
+//         Answer: ;
+//         Answer: ;
+//         Answer: ;
+//         Answer: ;
+
+//     objQuestionTen = {
+//         Question: ;
+//         Answer: ;
+//         Answer: ;
+//         Answer: ;
+//         Answer: ;
+//     }
+// }
+
 
 
 // what is being stored from the array
@@ -63,11 +104,14 @@ $(() => {
         'fourty5': arrQuestion5[3],
         'fifty5': arrQuestion5[4]
     }
+    const objFinal = {
+        'final1': finalJeopardy[0],
+    }
 
 ///////// The Answers being pulled into the obj from the array /////////
 
-// ANSWERS: What is an avocato?, What is a banana?, What is pizza?, What is a coconut?, What is steak?...
-    const answerFood1 = ['What is an avocato?', 'What is a potato?', 
+// ANSWERS: What is an avocado?, What is a banana?, What is pizza?, What is a coconut?, What is steak?...
+    const answerFood1 = ['What is an avocado?', 'What is a potato?', 
     'What is a banana?', 'What is an Orange?',
     'What is pizza?', 'What is sausage?',
     'What is a coconut?', 'What is a bird?',
@@ -76,17 +120,19 @@ $(() => {
     const answerFood2 = ['What is a plum?', 'What is a carrot?', 
     'What is a slice of pizza?', 'What is an apple?',
     'What is steak?', 'What is eggs?',
-    'What is an avocato?', 'What is a chicken?',
+    'What is an avocado?', 'What is a chicken?',
     'What is rice?', 'What is chicken?']
+
+
 
 // answerFood1 [0,2,4,6,8] is always correct...
 
     const objAnswerFood = {
-        'ten1': answerFood1[1],
-        'twenty1': answerFood2[2],
-        'thirty1': answerFood2[4],
+        'ten1': answerFood1[0],
+        'twenty1': answerFood1[2],
+        'thirty1': answerFood1[4],
         'fourty1': answerFood1[6],
-        'fifty1': answerFood2[8],
+        'fifty1': answerFood1[8],
     }
     const objAnswerFood1 = {
         'ten1': answerFood2[1],
@@ -97,13 +143,13 @@ $(() => {
     }
     const objAnswerFood2 = {
         'ten1': answerFood2[0],
-        'twenty1': answerFood1[2],
-        'thirty1': answerFood1[4],
+        'twenty1': answerFood2[2],
+        'thirty1': answerFood2[4],
         'fourty1': answerFood2[6],
-        'fifty1': answerFood1[8],
+        'fifty1': answerFood2[8],
     }
     const objAnswerFood3 = {
-        'ten1': answerFood1[0],
+        'ten1': answerFood1[1],
         'twenty1': answerFood2[3],
         'thirty1': answerFood1[5],
         'fourty1': answerFood2[7],
@@ -127,18 +173,18 @@ $(() => {
 // answerProgramming [0,2,4,6,8] is always correct...
 
     const objAnswerProgramming = {
-        'ten2': answerProgramming[1],
+        'ten2': answerProgramming[0],
         'twenty2': answerProgramming[2],
-        'thirty2': answerProgramming1[5],
-        'fourty2': answerProgramming1[7],
-        'fifty2': answerProgramming[9],
+        'thirty2': answerProgramming[4],
+        'fourty2': answerProgramming[6],
+        'fifty2': answerProgramming[8],
     }
     const objAnswerProgramming1 = {
-        'ten2': answerProgramming[0],
+        'ten2': answerProgramming[1],
         'twenty2': answerProgramming[3],
         'thirty2': answerProgramming[5],
         'fourty2': answerProgramming[7],
-        'fifty2': answerProgramming[8],
+        'fifty2': answerProgramming[9],
     }
     const objAnswerProgramming2 = {
         'ten2': answerProgramming1[0],
@@ -150,8 +196,8 @@ $(() => {
     const objAnswerProgramming3 = {
         'ten2': answerProgramming1[1],
         'twenty2': answerProgramming1[3],
-        'thirty2': answerProgramming[4],
-        'fourty2': answerProgramming[6],
+        'thirty2': answerProgramming1[5],
+        'fourty2': answerProgramming1[7],
         'fifty2': answerProgramming1[9],
     }
 
@@ -172,11 +218,11 @@ $(() => {
 // answerMath [0,2,4,6,8] is always correct...
 
     const objAnswerMath = {
-        'ten3': answerMath1[0],
+        'ten3': answerMath[0],
         'twenty3': answerMath[2],
-        'thirty3': answerMath1[5],
+        'thirty3': answerMath[4],
         'fourty3': answerMath[6],
-        'fifty3': answerMath1[8],
+        'fifty3': answerMath[8],
     }
     const objAnswerMath1 = {
         'ten3': answerMath[1],
@@ -186,16 +232,16 @@ $(() => {
         'fifty3': answerMath[9],
     }
     const objAnswerMath2 = {
-        'ten3': answerMath[0],
+        'ten3': answerMath1[0],
         'twenty3': answerMath1[2],
         'thirty3': answerMath1[4],
         'fourty3': answerMath1[6],
-        'fifty3': answerMath[8],
+        'fifty3': answerMath1[8],
     }
     const objAnswerMath3 = {
         'ten3': answerMath1[1],
         'twenty3': answerMath1[3],
-        'thirty3': answerMath[4],
+        'thirty3': answerMath1[5],
         'fourty3': answerMath1[7],
         'fifty3': answerMath1[9],
     }
@@ -217,28 +263,28 @@ $(() => {
 // answerHistory [0,2,4,6,8] is always correct...
 
     const objAnswerHistory = {
-        'ten4': answerHistory1[1],
-        'twenty4': answerHistory1[2],
+        'ten4': answerHistory[0],
+        'twenty4': answerHistory[2],
         'thirty4': answerHistory[4],
-        'fourty4': answerHistory[7],
-        'fifty4': answerHistory1[8],
+        'fourty4': answerHistory[6],
+        'fifty4': answerHistory[8],
     }
     const objAnswerHistory1 = {
         'ten4': answerHistory[1],
         'twenty4': answerHistory[3],
         'thirty4': answerHistory[5],
-        'fourty4': answerHistory[6],
+        'fourty4': answerHistory[7],
         'fifty4': answerHistory[9],
     }
     const objAnswerHistory2 = {
         'ten4': answerHistory1[0],
-        'twenty4': answerHistory[2],
+        'twenty4': answerHistory1[2],
         'thirty4': answerHistory1[4],
         'fourty4': answerHistory1[6],
-        'fifty4': answerHistory[8],
+        'fifty4': answerHistory1[8],
     }
     const objAnswerHistory3 = {
-        'ten4': answerHistory[0],
+        'ten4': answerHistory1[1],
         'twenty4': answerHistory1[3],
         'thirty4': answerHistory1[5],
         'fourty4': answerHistory1[7],
@@ -262,14 +308,14 @@ $(() => {
 // answerStates [0,2,4,6,8] is always correct...
 
     const objAnswerStates = {
-        'ten5': answerStates[1],
-        'twenty5': answerStates1[2],
-        'thirty5': answerStates1[4],
-        'fourty5': answerStates1[7],
+        'ten5': answerStates[0],
+        'twenty5': answerStates[2],
+        'thirty5': answerStates[4],
+        'fourty5': answerStates[6],
         'fifty5': answerStates[8],
     }
     const objAnswerStates1 = {
-        'ten5': answerStates[0],
+        'ten5': answerStates[1],
         'twenty5': answerStates[3],
         'thirty5': answerStates[5],
         'fourty5': answerStates[7],
@@ -277,8 +323,8 @@ $(() => {
     }
     const objAnswerStates2 = {
         'ten5': answerStates1[0],
-        'twenty5': answerStates[2],
-        'thirty5': answerStates[4],
+        'twenty5': answerStates1[2],
+        'thirty5': answerStates1[4],
         'fourty5': answerStates1[6],
         'fifty5': answerStates1[8],
     }
@@ -286,18 +332,36 @@ $(() => {
         'ten5': answerStates1[1],
         'twenty5': answerStates1[3],
         'thirty5': answerStates1[5],
-        'fourty5': answerStates[6],
+        'fourty5': answerStates1[7],
         'fifty5': answerStates1[9],
+    }
+
+
+    const answerFinalJeopardy = ['Tomorrow', 'yesterday', 'a week ago', 'a webpage']
+
+    const objAnswerFinalJeopardy = {
+        'final1': answerFinalJeopardy[0],
+    }
+    const objAnswerFinalJeopardy1 = {
+        'final1': answerFinalJeopardy[1],
+    }
+    const objAnswerFinalJeopardy2 = {
+        'final1': answerFinalJeopardy[2],
+    }
+    const objAnswerFinalJeopardy3 = {
+        'final1': answerFinalJeopardy[3],
     }
 
 
 ////////////////////////////////////////////////////////////
 //////// What is going to make everything work ////////
 ///////////////////////////////////////////////////////////
-    const $question = $('.square').on('click', (event) => {
-        $(event.currentTarget).css('text-decoration', 'line-through')
-        $modal.css('display', 'block');
-        
+        const $question = $('.square').on('click', (event) => {
+            $(event.currentTarget).css('text-decoration', 'line-through')
+            $modal.css('display', 'block');
+
+            
+
         // taking the blank text from the modal and replacing it with what you stored in obj...
         // The questions //
         $('#modalText').text(objFood[event.currentTarget.id])
@@ -305,6 +369,7 @@ $(() => {
         $('#modalText').text(objMath[event.currentTarget.id])
         $('#modalText').text(objHistory[event.currentTarget.id])
         $('#modalText').text(objStates[event.currentTarget.id])
+        $('#modalText').text(objFinal[event.currentTarget.id])
 
 
 
@@ -312,47 +377,48 @@ $(() => {
 
         //inputing text into the buttons
 //Food Answer Buttons
-        $('#submit').text(objAnswerFood[event.currentTarget.id])
-        $('#submit1').text(objAnswerFood1[event.currentTarget.id])
-        $('#submit2').text(objAnswerFood2[event.currentTarget.id])
-        $('#submit3').text(objAnswerFood3[event.currentTarget.id])
+        $('#answerText').text(objAnswerFood[event.currentTarget.id])
+        $('#answerText1').text(objAnswerFood1[event.currentTarget.id])
+        $('#answerText2').text(objAnswerFood2[event.currentTarget.id])
+        $('#answerText3').text(objAnswerFood3[event.currentTarget.id])
 //Programming Answer Buttons
-        $('#submit').text(objAnswerProgramming[event.currentTarget.id])
-        $('#submit1').text(objAnswerProgramming1[event.currentTarget.id])
-        $('#submit2').text(objAnswerProgramming2[event.currentTarget.id])
-        $('#submit3').text(objAnswerProgramming3[event.currentTarget.id])
+        $('#answerText').text(objAnswerProgramming[event.currentTarget.id])
+        $('#answerText1').text(objAnswerProgramming1[event.currentTarget.id])
+        $('#answerText2').text(objAnswerProgramming2[event.currentTarget.id])
+        $('#answerText3').text(objAnswerProgramming3[event.currentTarget.id])
 //Math Answer Buttons
-        $('#submit').text(objAnswerMath[event.currentTarget.id])
-        $('#submit1').text(objAnswerMath1[event.currentTarget.id])
-        $('#submit2').text(objAnswerMath2[event.currentTarget.id])
-        $('#submit3').text(objAnswerMath3[event.currentTarget.id])
+        $('#answerText').text(objAnswerMath[event.currentTarget.id])
+        $('#answerText1').text(objAnswerMath1[event.currentTarget.id])
+        $('#answerText2').text(objAnswerMath2[event.currentTarget.id])
+        $('#answerText3').text(objAnswerMath3[event.currentTarget.id])
 //History Answer Buttons
-        $('#submit').text(objAnswerHistory[event.currentTarget.id])
-        $('#submit1').text(objAnswerHistory1[event.currentTarget.id])
-        $('#submit2').text(objAnswerHistory2[event.currentTarget.id])
-        $('#submit3').text(objAnswerHistory3[event.currentTarget.id])
+        $('#answerText').text(objAnswerHistory[event.currentTarget.id])
+        $('#answerText1').text(objAnswerHistory1[event.currentTarget.id])
+        $('#answerText2').text(objAnswerHistory2[event.currentTarget.id])
+        $('#answerText3').text(objAnswerHistory3[event.currentTarget.id])
 //States Answer Buttons
-        $('#submit').text(objAnswerStates[event.currentTarget.id])
-        $('#submit1').text(objAnswerStates1[event.currentTarget.id])
-        $('#submit2').text(objAnswerStates2[event.currentTarget.id])
-        $('#submit3').text(objAnswerStates3[event.currentTarget.id])
+        $('#answerText').text(objAnswerStates[event.currentTarget.id])
+        $('#answerText1').text(objAnswerStates1[event.currentTarget.id])
+        $('#answerText2').text(objAnswerStates2[event.currentTarget.id])
+        $('#answerText3').text(objAnswerStates3[event.currentTarget.id])
+//Final Answer Buttons
+        $('#answerText').text(objAnswerFinalJeopardy[event.currentTarget.id])
+        $('#answerText1').text(objAnswerFinalJeopardy1[event.currentTarget.id])
+        $('#answerText2').text(objAnswerFinalJeopardy2[event.currentTarget.id])
+        $('#answerText3').text(objAnswerFinalJeopardy3[event.currentTarget.id])
         }) 
+
+
+
         
-        
-
-
-
-
 
 // creation of the modal for the questions when clicked
 
     const $modal = $('.modal');
     const $closeBtn = $('.close-btn');
-    const $submitBtn = $('#submit');
-    const $submitBtn1 = $('#submit1');
-    const $submitBtn2 = $('#submit2');
-    const $submitBtn3 = $('#submit3');
-    const $inputText = $('#inputText');
+    let $submitBtn = $('#submit');
+    let $inputText = $('#inputText');
+    
 
     $closeBtn.on('click', () => {
         $modal.css('display', 'none');
@@ -360,42 +426,62 @@ $(() => {
     })
 
     $submitBtn.on('click', () => {
-        if ($inputText == true) {
-            alert('Correct!');
+        if ($inputText.val() == 1) {
+            alert('Correct!')
+            $('#inputText').val('')
         } else {
-            alert('incorrect');
-        }  
+            alert('Incorrect!')
+            $('#inputText').val('')
+        }
     })
-    $submitBtn1.on('click', () => {
-        if ($inputText == true) {
-            alert('Correct!');
-        } else {
-            alert('incorrect');
-        }  
-    })
-    $submitBtn2.on('click', () => {
-        if ($inputText == true) {
-            alert('Correct!');
-        } else {
-            alert('incorrect');
-        }  
-    })
-    $submitBtn3.on('click', () => {
-        if ($inputText == true) {
-            alert('Correct!');
-        } else {
-            alert('incorrect');
-        }  
-    })
+
+
 });
    
 
+
+
+
+
+
+
+
+
+
+
+   //     // answerFood1[1] answerFood2[1] answerFood2[0] answerFood1[0],
+    
+
+
+    // $submitBtn.on('click', () => {
+        
+    //             alert('incorrect!');
+         
+    // })
+//     $submitBtn1.on('click', () => {
+//         if ($inputText == true) {
+//             alert('Correct!');
+//         } else {
+//             alert('incorrect');
+//         }  
+//     })
+//     $submitBtn2.on('click', () => {
+//         if ($inputText == true) {
+//             alert('Correct!');
+//         } else {
+//             alert('incorrect');
+//         }  
+//     })
+//     $submitBtn3.on('click', () => {
+//         if ($inputText == true) {    
+//         }
+//         alert('Correct!');
+//     })
+        
    
    
    
    
    
    
-   
-   
-   
+
