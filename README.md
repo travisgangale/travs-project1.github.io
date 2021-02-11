@@ -23,7 +23,7 @@ https://medium.com/@nerdplusdog/a-how-to-guide-for-modal-boxes-with-javascript-h
 ^^^^^^^^ info about modal cited
 ----------------------------------------------------------------------------------------
 
-
+img of the game:
 https://github.com/travisgangale/travs-project1.github.io/blob/main/Screenshot%20from%202021-02-11%2018-04-30.png?raw=true
 
 
@@ -49,6 +49,6 @@ Future Development -
 
 This is the site:
 
-https://github.com/travisgangale/travs-project1.github.io
+file:///home/travis/Desktop/sample_project/index.html
 
 
