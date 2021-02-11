@@ -23,9 +23,8 @@ https://medium.com/@nerdplusdog/a-how-to-guide-for-modal-boxes-with-javascript-h
 ^^^^^^^^ info about modal cited
 ----------------------------------------------------------------------------------------
 
-file:///home/travis/Pictures/Screenshot%20from%202021-02-11%2018-04-30.png
 
-
+https://github.com/travisgangale/travs-project1.github.io/blob/main/Screenshot%20from%202021-02-11%2018-04-30.png?raw=true
 
 
 
