@@ -73,11 +73,11 @@ $(() => {
     'What is a coconut?', 'What is a bird?',
     'What is steak?', 'What is grass?']
 
-    const answerFood2 = ['What is an avocato?', 'What is a potato?', 
-    'What is a banana?', 'What is an Orange?',
-    'What is pizza?', 'What is sausage?',
-    'What is a coconut?', 'What is a bird?',
-    'What is steak?', 'What is grass?']
+    const answerFood2 = ['What is a plum?', 'What is a carrot?', 
+    'What is a slice of pizza?', 'What is an apple?',
+    'What is steak?', 'What is eggs?',
+    'What is an avocato?', 'What is a chicken?',
+    'What is rice?', 'What is chicken?']
 
     const objAnswerFood = {
         'ten1': answerFood1[0],
@@ -114,13 +114,13 @@ $(() => {
     'What is looping?', 'What is forming?',
     'What are conditionals?', 'What are mocks?',
     'What are variables?', 'What are spots?',
-    'What is an array?', 'What is a pie?']
+    'What is an array?', 'What is pie?']
 
-    const answerProgramming1 = ['What is an Algorithm?', 'What is a Boolean?',
-    'What is looping?', 'What is forming?',
-    'What are conditionals?', 'What are mocks?',
-    'What are variables?', 'What are spots?',
-    'What is an array?', 'What is a pie?']
+    const answerProgramming1 = ['What is a loop?', 'What is a license?',
+    'What is math?', 'What is work?',
+    'What are booleans?', 'What are drafts?',
+    'What are places?', 'What are things?',
+    'What is a list?', 'What is a PEMDAS?']
 
     const objAnswerProgramming = {
         'ten2': answerProgramming[0],
@@ -159,11 +159,11 @@ $(() => {
     'What are parallel lines?', 'What are perpendicular lines?',
     'What is an obtuse angle?', 'What is an acute angle?']
 
-    const answerMath1 = ['What is 42?', 'What is 52?',
-    'What is 7?', 'What is 13?',
-    'What is PEMDAS?', 'What is MMATMILP?',
-    'What are parallel lines?', 'What are perpendicular lines?',
-    'What is an obtuse angle?', 'What is an acute angle?']
+    const answerMath1 = ['What is 36?', 'What is 43?',
+    'What is 17?', 'What is 9?',
+    'What is FOMO?', 'What is LMAO?',
+    'What are lines?', 'What are Triangles?',
+    'What is a circle?', 'What is a stock?']
 
     const objAnswerMath = {
         'ten3': answerMath[0],
@@ -202,11 +202,11 @@ $(() => {
     'Who is France?', 'Who is Italy?',
     'What is the Declaration of Independence?', 'What is the National Anthem?']
 
-    const answerHistory1 = ['Who is Christopher Columbus?', 'Who is Freddy Mercury?',
-    'Who is Abraham Lincoln?', 'Who is George Washington?',
-    'Who is George Washington?', 'Who is Christopher Columbus?',
-    'Who is France?', 'Who is Italy?',
-    'What is the Declaration of Independence?', 'What is the National Anthem?']
+    const answerHistory1 = ['Who is Pocahontas?', 'Who is Chandler?',
+    'Who is Teddy Roosevelt?', 'Who is Donald Trump?',
+    'Who is Barack Obama?', 'Who is Thomas Jefferson?',
+    'Who is Germany?', 'Who is Troy?',
+    'What is the Emancipation Proclamation?', 'What is the Book of Solitude?']
 
     const objAnswerHistory = {
         'ten4': answerHistory[0],
@@ -245,11 +245,11 @@ $(() => {
     'What is New York?', 'What is Washington, D.C.?',
     'What is Texas?', 'What is Missouri?']
 
-    const answerStates1 = ['Where is the pentagon?', 'Where is the Miracle Building of Arts?',
-    'Where is the Empire State Building?', 'Where is the White House?',
-    'What is Florida?', 'What is California?',
-    'What is New York?', 'What is Washington, D.C.?',
-    'What is Texas?', 'What is Missouri?']
+    const answerStates1 = ['Where is the Temples of Wakanda?', 'Where is the House of Practicians?',
+    'Where are the Cowboys?', 'Where is the 5 finger lakes?',
+    'What is Texas?', 'What is Washington?',
+    'What is North Dakota?', 'What is Maine',
+    'What is Utah?', 'What is Oklahoma?']
 
     const objAnswerStates = {
         'ten5': answerStates[0],
