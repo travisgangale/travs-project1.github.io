@@ -79,6 +79,8 @@ $(() => {
     'What is an avocato?', 'What is a chicken?',
     'What is rice?', 'What is chicken?']
 
+// answerFood1 [0,2,4,6,8] is always correct...
+
     const objAnswerFood = {
         'ten1': answerFood1[0],
         'twenty1': answerFood1[2],
@@ -121,6 +123,8 @@ $(() => {
     'What are booleans?', 'What are drafts?',
     'What are places?', 'What are things?',
     'What is a list?', 'What is a PEMDAS?']
+
+// answerProgramming [0,2,4,6,8] is always correct...
 
     const objAnswerProgramming = {
         'ten2': answerProgramming[0],
@@ -165,6 +169,8 @@ $(() => {
     'What are lines?', 'What are Triangles?',
     'What is a circle?', 'What is a stock?']
 
+// answerMath [0,2,4,6,8] is always correct...
+
     const objAnswerMath = {
         'ten3': answerMath[0],
         'twenty3': answerMath[2],
@@ -208,6 +214,8 @@ $(() => {
     'Who is Germany?', 'Who is Troy?',
     'What is the Emancipation Proclamation?', 'What is the Book of Solitude?']
 
+// answerHistory [0,2,4,6,8] is always correct...
+
     const objAnswerHistory = {
         'ten4': answerHistory[0],
         'twenty4': answerHistory[2],
@@ -250,6 +258,8 @@ $(() => {
     'What is Texas?', 'What is Washington?',
     'What is North Dakota?', 'What is Maine',
     'What is Utah?', 'What is Oklahoma?']
+
+// answerStates [0,2,4,6,8] is always correct...
 
     const objAnswerStates = {
         'ten5': answerStates[0],
